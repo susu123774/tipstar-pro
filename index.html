@@ -1288,10 +1288,9 @@ document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 // SUPABASE AUTH
 // ============================================================
 
-// ⚠️ Replace these with your real Supabase project credentials
-// Get them from: https://supabase.com → Your Project → Settings → API
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+// ✅ Supabase credentials — configured 2026-04-16
+const SUPABASE_URL = 'https://fvskxmdebmaodwihgqdy.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ2c2t4bWRlYm1hb2R3aWhncWR5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzMTI0MzMsImV4cCI6MjA5MTg4ODQzM30.n8_K2cRwrLqCwsl1fFp1qAZH08KGvf9zXH6mByvaoGc';
 
 let supabase = null;
 let currentUser = null;
